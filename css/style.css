@@ -35,7 +35,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  float: left;
 }
 
 a {
@@ -67,9 +67,6 @@ a {
 }
 
 /* Header */
-header {
-
-}
 
 /* Top Bar */
 .top-bar {
@@ -80,7 +77,11 @@ header {
 }
 
 .top-bar li {
-  padding: 0 10px;
+  padding-right: 20px;
+}
+
+.top-bar li:last-child {
+  padding-right: 0;
 }
 
 .top-bar-left .vl {
@@ -93,22 +94,55 @@ header {
 
 /* Bottom Bar */
 .bot-bar {
-  height: 80px;
   line-height: 80px;
 }
 
-/* .bot-bar .container {
-  position: relative;
+.bot-bar-left {
+  height: 80px;
 }
 
-.bot-bar-left {
-  position: absolute;
-  left: 0;
-} */
+.bot-bar-left img {
+  margin-top: 25px;
+}
 
+.bot-bar li {
+  padding-left: 20px;
+}
+
+.bot-bar li i {
+  margin-left: 8px;
+}
 
 /* Jumbotron */
 .jumbotron {
-  height: 500px;
+  height: 600px;
   background-color: #fff4ef;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.jumbotron .content {
+  padding-top: 60px;
+  width: 35%;
+}
+
+
+.jumbotron .content h1 {
+  padding-bottom: 30px;
+  font-size: 300%;
+}
+
+.jumbotron .content p {
+  padding-bottom: 40px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.jumbotron .content div {
+  padding-bottom: 40px;
+}
+
+.jumbotron .content div a {
+  padding: 15px 30px;
 }
