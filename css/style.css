@@ -7,3 +7,56 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+/* Header */
+header {
+
+}
+
+/* Top Bar */
+.top-bar {
+  height: 100px;
+  background-color: #f4f9fd;
+}
+
+.top-bar-left {
+
+}
+
+/* Bottom Bar */
+.bot-bar {
+  height: 100px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  background-color: #fff4ef;
+}
