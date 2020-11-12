@@ -5,7 +5,10 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #33475B;
 }
 
 .container {
@@ -35,6 +38,34 @@ li {
   display: inline-block;
 }
 
+a {
+  text-decoration: none;
+  color: #33475B;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 10px;
+  border: 1px solid #FF7A59;
+  border-radius: 5px;
+}
+
+.bg-orange {
+  background-color: #FF7A59;
+}
+
+.orange {
+  color: #FF7A59;
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 /* Header */
 header {
 
@@ -42,17 +73,27 @@ header {
 
 /* Top Bar */
 .top-bar {
-  height: 100px;
+  height: 80px;
+  line-height: 80px;
   background-color: #f4f9fd;
+  border-bottom: 2px solid grey;
 }
 
-.top-bar-left {
+.top-bar li {
+  padding: 0 10px;
+}
 
+.top-bar-right li:first-child {
+  color: #00A4BD;
+}
+
+.top-bar-left .vl {
+  font-size: 18px;
 }
 
 /* Bottom Bar */
 .bot-bar {
-  height: 100px;
+  height: 80px;
 }
 
 /* Jumbotron */
