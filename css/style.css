@@ -83,18 +83,29 @@ header {
   padding: 0 10px;
 }
 
-.top-bar-right li:first-child {
-  color: #00A4BD;
-}
-
 .top-bar-left .vl {
   font-size: 18px;
+}
+
+.top-bar-right li:first-child {
+  color: #00A4BD;
 }
 
 /* Bottom Bar */
 .bot-bar {
   height: 80px;
+  line-height: 80px;
 }
+
+/* .bot-bar .container {
+  position: relative;
+}
+
+.bot-bar-left {
+  position: absolute;
+  left: 0;
+} */
+
 
 /* Jumbotron */
 .jumbotron {
