@@ -11,6 +11,38 @@ body {
   color: #33475B;
 }
 
+h1 {
+  font-size: 350%;
+}
+
+h2 {
+  font-size: 250%
+}
+
+h3 {
+  font-size: 200%;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #33475B;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -29,19 +61,6 @@ body {
 
 .float-right {
   float: right;
-}
-
-ul {
-  list-style: none;
-}
-
-header li {
-  float: left;
-}
-
-a {
-  text-decoration: none;
-  color: #33475B;
 }
 
 /* Buttons */
@@ -71,10 +90,15 @@ a {
 
 /* Top Bar */
 .top-bar {
+  width: 100%;
   height: 80px;
   line-height: 80px;
   background-color: #f4f9fd;
   border-bottom: 2px solid grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .top-bar li {
@@ -95,8 +119,10 @@ a {
 
 /* Bottom Bar */
 .bot-bar {
+  width: 100%;
   height: 80px;
   line-height: 80px;
+  margin-top: 80px;
 }
 
 .bot-bar-left img {
@@ -142,30 +168,31 @@ a {
 
 .jumbotron .content {
   padding-top: 60px;
-  width: 35%;
+  width: 30%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
 
-
-.jumbotron .content h1 {
-  padding-bottom: 30px;
-  font-size: 300%;
-  /* z-index: 2; */
-}
-
-.jumbotron .content p {
-  padding-bottom: 40px;
-  line-height: 1.6;
-  font-weight: 400;
-}
-
-.jumbotron .content div {
-  padding-bottom: 40px;
-}
-
 .jumbotron .content div a {
   padding: 15px 30px;
 }
+
+/* Main */
+main {
+  padding: 40px 0;
+}
+
+/* Info */
+main .info {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info img {
+  width: 30%;
+}
+
+/* Offers */
