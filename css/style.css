@@ -79,6 +79,10 @@ header li , .free-hub li {
   background-color: #FF7A59;
 }
 
+.bg-lightgrey {
+  background-color: lightgrey;
+}
+
 .orange {
   color: #FF7A59;
 }
@@ -307,8 +311,16 @@ main a.btn {
   color: white;
 }
 
+.data .text {
+  padding: 0 120px;
+}
+
 .first.row {
   border-bottom: 1px solid white;
+}
+
+.second.row {
+  margin-bottom: 40px;
 }
 
 .row .data-box {
@@ -359,6 +371,7 @@ main a.btn {
 .customers-top img {
   height: 40px;
   float: right;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -375,4 +388,65 @@ main a.btn {
   margin-top: 40px;
   width: 40%;
   float: right;
+}
+
+/* Footer */
+footer {
+  padding: 30px 0;
+  background-color: #2D3E50;
+  color: white;
+}
+
+footer .col {
+  width: 25%;
+  float: left;
+}
+
+/* Columns */
+.col ul {
+  margin-top: 30px;
+}
+
+.col ul li {
+  font-weight: 400;
+  line-height: 2.0;
+}
+
+.col.last ul li:last-child {
+  margin: 15px 0;
+}
+
+.col ul li a {
+  color: #2D3E50;
+  border: none;
+}
+
+.col i {
+  margin-right: 25px;
+  float: left;
+}
+
+/* Languages */
+.languages {
+  padding-top: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.languages ul li {
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 3.8;
+  font-weight: 400;
+}
+
+/* Copyright */
+.copyright div {
+  font-weight: 400;
+}
+
+.copyright span {
+  font-weight: 400;
+  margin-left: 20px;
 }
