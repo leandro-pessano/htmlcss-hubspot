@@ -147,9 +147,6 @@ header li , .free-hub li {
   height: 695px;
   position: relative;
   background-color: #fff4ef;
-  /* background-image: url(../img/jumbotron.png);
-  background-position: right top;
-  background-repeat: no-repeat; */
 }
 
 .jumbotron img.background {
@@ -180,7 +177,7 @@ header li , .free-hub li {
   z-index: 2;
 }
 
-.jumbotron .content div {
+.content div {
   margin: 15px 0;
 }
 
@@ -193,15 +190,15 @@ main {
   background-color: #F5F8FA;
 }
 
-main section {
-  margin: 0 auto;
-  padding-top: 40px;
+main section:not(:first-child) {
+  padding: 40px 0;
 }
 
 /* Info */
 main .info {
   width: 50%;
   margin: 0 auto;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -304,3 +301,78 @@ main a.btn {
 }
 
 /* Data */
+.data {
+  background-image: linear-gradient(#00AEB4, #00BDA6);
+  text-align: center;
+  color: white;
+}
+
+.first.row {
+  border-bottom: 1px solid white;
+}
+
+.row .data-box {
+  width: 25%;
+  height: 150px;
+  padding: 30px;
+  float: left;
+  text-align: center;
+}
+
+.data-box:not(:last-child){
+  border-right: 1px solid white;
+}
+
+.data-box img{
+  height: 30px;
+}
+
+.data-box strong {
+  display: block;
+  padding: 5px 0;
+  font-size: 250%;
+  font-weight: 700;
+}
+
+.data-box strong::after {
+  content: "+";
+  display: inline-block;
+  line-height: 100%;
+  vertical-align: middle;
+  font-size: 50%;
+  font-weight: 400;
+}
+
+/* Customers */
+.customers-top {
+  padding: 0 50px;
+}
+
+.customers-top .float-left {
+  width: 20%;
+}
+
+.customers-top .float-right {
+  width: 80%;
+}
+
+.customers-top img {
+  height: 40px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.customers-bottom .float-left {
+  padding-top: 80px;
+  width: 35%;
+}
+
+.customers-bottom .float-right {
+  width: 65%;
+}
+
+.customers-bottom .float-right img {
+  margin-top: 40px;
+  width: 40%;
+  float: right;
+}
